@@ -2,6 +2,8 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    background: fixed;
+    opacity: 0;
 }
 body
 {
@@ -12,7 +14,7 @@ body
     position: relative;
     height: 100vh;
     width: 100vw;
-    background:url(../image/big-sandwich-hamburger.jpg),no-repeat;
+    background:url(../image/back1.PNG),no-repeat;
     background-position: 50% 30%;
     background-size: cover;
     display: flex;
